@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="EGCC2020.BDDestino202012.sa"
+  DTS:DTSID="{E0CD07A1-EEAC-40AB-B8AC-C2567748C7DB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EGCC2020;User ID=sa;Initial Catalog=BDDestino202012;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb9jg3V5C1UCjWy1q+Pnv8QAAAAACAAAAAAAQZgAAAAEAACAAAAAm39vIZge5UOK/gprmP+52CWbi22kq7PzNtA9UatkJFAAAAAAOgAAAAAIAACAAAACJNArdTGoFpnjj+0o0kBlhqNYveuw+Z+MbzmLDZyJFPXAAAAD6Kva8TgLeMWMLN/5hpgSf3zuYbXzNBYH2tYz0OgABYBtitfueKki91vNhTgx/q97en7qY+dkZJ0kKLKOPX9nb1px1atfzTCCKLakXgVDDXdzFbxvxTQzxbQcs0ZZOSPeN3MJWrHz1xFHhzDdQLtneQAAAAMNxTozmr5AkjwcTpcuAKDH8YzmWBpisZwvRVSRFUK/wE+Ij/vC012CyX6vG12GHOuUyXqFmU0Rm+vr8WdknIyQ=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
