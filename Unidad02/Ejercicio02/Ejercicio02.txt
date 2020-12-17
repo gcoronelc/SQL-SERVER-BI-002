@@ -1,6 +1,6 @@
 TRANSFORMACIÓN: SCRIPT COMPONENT
 ------------------------------------------
-Permite transformar un valor en valor.
+Permite transformar un valor.
 Por ejemplo un codigo en su descripción.
 Se puede incluir logica con VB o C#.
 
