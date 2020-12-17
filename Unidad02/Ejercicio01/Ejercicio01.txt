@@ -1,0 +1,7 @@
+Tarea Flujo de Datos
+
+Leer datos de la tabla Northwind..Customers 
+y llevarlas a la tabla BDDestino..Customers
+
+La tarea Ejecutar SQL se debe utilizar para 
+limpiar las tablas destino.
