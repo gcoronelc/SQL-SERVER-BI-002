@@ -4,6 +4,9 @@ Permite transformar un valor.
 Por ejemplo un codigo en su descripción.
 Se puede incluir logica con VB o C#.
 
+Ejercicio
+--------------------------------------------------
+
 El objetivo es llevar los datos del archivo 
 territorios.txt a la tabla BDDestino..Territorios
 
@@ -18,8 +21,8 @@ se debe remplazar por su descripción:
 Consideraciones:
 
 - El archivo no tiene nombre de columnas
-- Las cadenas tienen doble comillas
-  En Formato, Calificador de texto escribir doble comillas
+- Las cadenas tienen doble comillas.
+  En Formato, Calificador de texto escribir doble comillas.
 - Se debe crear una nueva columna de salida de nombre Region
 
 Script a considerar con C#:
