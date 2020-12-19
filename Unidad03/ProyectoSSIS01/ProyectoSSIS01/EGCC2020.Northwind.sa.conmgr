@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="EGCC2020.Northwind.sa"
+  DTS:DTSID="{9D368952-3356-4DD7-AC7C-F416A87E51F4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EGCC2020;User ID=sa;Initial Catalog=Northwind;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb9jg3V5C1UCjWy1q+Pnv8QAAAAACAAAAAAAQZgAAAAEAACAAAABs7ifASbIU7cq802JHnnY23B1Hk+AN4mXWvCZ0JreZQwAAAAAOgAAAAAIAACAAAADBtXWRRe5X1P2GdbN1EoUZqnS3yC2KG2E7tIAX8X9PqXAAAABojvdMyV7BaeORwAWisonhAGwvxCiQAOhiroG3xvayHH04fL8dstsxGMka2FwtZs6S3piHg5Z2SgDMDMwvdHSy0DkWfoGXI6eez4rBNjcCkpkw1KBFqqwabSyDCp/0TXALx7Z85/SHoU2Au4/u7RNtQAAAAEB1PULPN8BkjSv75OBnLoARH+3V9I/nKxeMNdoUtk5sev5Q4lkaSCLFZC25ohfkkBV3NhpUPRj4IYoX5SAcDy4=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,12 @@
+Trnsformación: Contenedor de bucles Foreach
+
+Se va ha leer archivos planos: DespachosPlanta01.txt y DespachosPlanta04.txt
+
+Se crea una variable: VarDespacho
+
+Se crea una nueva conexión a uno de los archivo planos
+
+En la propiedad Expresiones de modifica la propiedad ConnectionString 
+para que utilice el valor de la variable VarDespacho
+
+Se agrega un transformación de Flujo de datos y se completa la transformación
