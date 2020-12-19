@@ -1,6 +1,9 @@
 use northwind
 go
 
+DROP TABLE dbo.ciudades;
+go
+
 create table dbo.ciudades(
 idCiudad varchar(5),
 descripcion varchar(50)
