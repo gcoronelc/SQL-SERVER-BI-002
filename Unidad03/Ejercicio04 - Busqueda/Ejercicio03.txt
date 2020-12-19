@@ -1,0 +1,6 @@
+Transformación 5: Busqueda
+
+PAso 1: Crear la tabla ciudades en la base de datos Northwind: ciudades.sql
+Paso 2: Crear un origen de datos al archivo ClientesPeru.csv
+Paso 3: La transformación de Busqueda, para buscar el nombre de la ciudad.
+        Configurar si hay error: Omitir error
