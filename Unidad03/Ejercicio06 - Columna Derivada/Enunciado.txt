@@ -1,0 +1,18 @@
+TRANSFORMACIÓN: COLUMNA DERIVADA (DERIVED COLUMN)
+------------------------------------------------------------------------------------------
+Permite crear nuevas columnas con un valor predeterminado.
+Permite crear nuevas columnas en base a los valores de entrada.
+
+EJEMPLO 03
+------------------------------------------------------------------------------------------
+Objetivos: 
+  - Tabla destino: NewEmpleados
+  - Copiar la tabla Northwind.dbo.Employees
+  - Combinar las columnas FirstName y LastName en una sola columna de nombre NombreCompleto
+    (FirstName + ", " + LastName)
+  - Usar el convertidor de tipo DT_STR para convertir a una cadena simple
+	(DT_STR,100,1252)(FirstName + ", " + LastName)
+  - Crear una columna Edad, donde se tendrá la edad del empleado.
+  - DATEDIFF( "YEAR", [BirthDate], GETDATE() )
+
+

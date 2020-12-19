@@ -8,7 +8,7 @@
       DTS:ConnectionString="Data Source=EGCC2020;User ID=sa;Initial Catalog=Northwind;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb9jg3V5C1UCjWy1q+Pnv8QAAAAACAAAAAAAQZgAAAAEAACAAAAAKdNAH0BtsxI/Fqns8BDnr8IuRf9y5ql9mJcWxvp8QewAAAAAOgAAAAAIAACAAAADFdbCyjJodu1TrdadOOC4jAZVnTjwj9ugWif4xb242y3AAAABaiRAby+cMdeah58bzSysdDy5NZprE7AH+R2c2cN6LrPW3hD8h98kiCgfQBa6KKZudOqJNBDqR/oEmxaQiRtUlJt7icJfbpEm5j+w3UL2fOZP7fnCBl7x3tL/WN4r5RNdcI02XVISWH3Dw8+XQN2GBQAAAACdZPzQvXqPWxRcLrTNALGLQ5AyaKiC8ghtWi/No42UnmeErXTGM14k8yh5lBr6OOwkkP4tl5uaOkTwwJCMu+PQ=</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb9jg3V5C1UCjWy1q+Pnv8QAAAAACAAAAAAAQZgAAAAEAACAAAACUwJ1m0hUhZP4vM8c0dzm4WGqbth/0XVQKGiLuFwSdPgAAAAAOgAAAAAIAACAAAAA7dQ5P7fY8njINhrMw2U9W5KWF9ZXfJ6LiWamYufOmrnAAAAB78g0bwFn+wNBo0vEEX5c8o5+ooh08fx8mhV4hJuGO+olaupHvmD5JdWi0kl6CWSNbslbUCxEmAqyM+kv/PA5UxNHoz2mUJ682nJtuwNbdAL2lN0DUsCY9y1ibIpQloObDZFilpP5FWbeXbGR4O4lTQAAAAHgh7sP2qPoNORzRuDyRgUqXWOhC96D9TJQb9MNr434gjTNMbPdsdWEW91ZbMOl2sfjOjmmB5rjy1XePB9dUB6E=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

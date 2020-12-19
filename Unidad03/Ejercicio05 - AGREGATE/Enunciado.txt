@@ -1,0 +1,33 @@
+TRANSFORMACIÓN: AGGREGATE
+-------------------------------------------------------------------
+Tiene funciones agregadas como COUNT, SUM, AVERAGE, MAX y MIN
+Tiene una clausula GROUP BY
+Controla los valores nulos igual que el motor de base de datos.
+Se puede definir varias salidas.
+
+EJEMPLO
+------------------------------------------------------
+Base de datos origen: NORTHWIND
+LLevar las ventas a tres tablas:
+- Ventas01: Resumen de ventas por cliente y por producto
+- Ventas02: Resumen de ventas por país y ciudad
+- Ventas03: Resumen de ventas por proveedor y categoría
+
+Consulta a utilizar:
+
+select 
+	o.OrderID, o.CustomerID, 
+	s.SupplierID, s.CompanyName SupplierName,
+	c.CategoryID, c.CategoryName,
+	p.ProductID, p.ProductName, 
+	o.ShipCountry, o.ShipCity, 
+	od.Quantity, od.UnitPrice * (1-od.Discount) UnitPrice,
+	od.Quantity * od.UnitPrice * (1-od.Discount) Subtotal
+from Northwind.dbo.Orders o
+join Northwind.dbo.[Order Details] od on o.OrderID = od.OrderID 
+join Northwind.dbo.Products p on od.ProductID = p.ProductID 
+join Northwind.dbo.Categories c on p.CategoryID = c.CategoryID
+join Northwind.dbo.Suppliers s on p.SupplierID = s.SupplierID
+
+
+
