@@ -8,8 +8,8 @@
         <UseWinAuth>false</UseWinAuth>
         <WinAuthUserName />
         <WinAuthDomain />
-        <ServerName />
-        <PathOnServer />
+        <ServerName>EGCC2020</ServerName>
+        <PathOnServer>/SSISDB/PoblarNWDIM/Poblar_Northwind_DM</PathOnServer>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>
