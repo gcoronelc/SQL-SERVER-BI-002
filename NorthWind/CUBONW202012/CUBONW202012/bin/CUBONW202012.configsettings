@@ -23,7 +23,25 @@
       <Dimension>
         <ID>PROVEEDOR</ID>
       </Dimension>
+      <Dimension>
+        <ID>DIMTIEMPO</ID>
+      </Dimension>
     </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>CUBONORWIND</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>VENTAS FACT</ID>
+            <Partitions>
+              <Partition>
+                <ID>VENTAS FACT</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
       <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>

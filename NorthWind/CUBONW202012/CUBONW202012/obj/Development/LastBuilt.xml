@@ -1,6 +1,31 @@
 ﻿<Infos>
+  <Item name="DIMEMPLEADO.dim">
+    <Time>637441822496666221</Time>
+    <Hash length="20">
+      <b>155</b>
+      <b>145</b>
+      <b>198</b>
+      <b>219</b>
+      <b>62</b>
+      <b>102</b>
+      <b>220</b>
+      <b>228</b>
+      <b>120</b>
+      <b>137</b>
+      <b>225</b>
+      <b>167</b>
+      <b>198</b>
+      <b>116</b>
+      <b>14</b>
+      <b>232</b>
+      <b>150</b>
+      <b>48</b>
+      <b>120</b>
+      <b>213</b>
+    </Hash>
+  </Item>
   <Item name="PROVEEDOR.dim">
-    <Time>637441839537110111</Time>
+    <Time>637441842998107088</Time>
     <Hash length="20">
       <b>195</b>
       <b>54</b>
@@ -49,6 +74,31 @@
       <b>252</b>
     </Hash>
   </Item>
+  <Item name="CUBONORWIND.cube">
+    <Time>637443511166485868</Time>
+    <Hash length="20">
+      <b>238</b>
+      <b>204</b>
+      <b>59</b>
+      <b>191</b>
+      <b>38</b>
+      <b>13</b>
+      <b>220</b>
+      <b>83</b>
+      <b>78</b>
+      <b>99</b>
+      <b>28</b>
+      <b>105</b>
+      <b>32</b>
+      <b>110</b>
+      <b>37</b>
+      <b>249</b>
+      <b>70</b>
+      <b>164</b>
+      <b>103</b>
+      <b>128</b>
+    </Hash>
+  </Item>
   <Item name="DIMPRODUCTO.dim">
     <Time>637441837011498230</Time>
     <Hash length="20">
@@ -74,54 +124,29 @@
       <b>23</b>
     </Hash>
   </Item>
-  <Item name="DIMCLIENTE.dim">
-    <Time>637441835392766738</Time>
+  <Item name="CUBONORWIND.partitions">
+    <Time>637443511170060502</Time>
     <Hash length="20">
-      <b>253</b>
-      <b>47</b>
+      <b>168</b>
+      <b>2</b>
+      <b>77</b>
+      <b>94</b>
+      <b>11</b>
+      <b>151</b>
+      <b>53</b>
+      <b>238</b>
+      <b>241</b>
+      <b>127</b>
+      <b>56</b>
+      <b>160</b>
+      <b>191</b>
       <b>232</b>
-      <b>3</b>
-      <b>41</b>
-      <b>38</b>
-      <b>93</b>
-      <b>235</b>
-      <b>175</b>
-      <b>118</b>
-      <b>96</b>
-      <b>118</b>
-      <b>248</b>
-      <b>203</b>
-      <b>105</b>
-      <b>141</b>
-      <b>131</b>
-      <b>112</b>
-      <b>29</b>
-      <b>129</b>
-    </Hash>
-  </Item>
-  <Item name="DIMEMPLEADO.dim">
-    <Time>637441822496666221</Time>
-    <Hash length="20">
-      <b>155</b>
-      <b>145</b>
-      <b>198</b>
-      <b>219</b>
-      <b>62</b>
-      <b>102</b>
-      <b>220</b>
-      <b>228</b>
-      <b>120</b>
-      <b>137</b>
-      <b>225</b>
-      <b>167</b>
-      <b>198</b>
-      <b>116</b>
-      <b>14</b>
-      <b>232</b>
-      <b>150</b>
-      <b>48</b>
-      <b>120</b>
-      <b>213</b>
+      <b>154</b>
+      <b>169</b>
+      <b>4</b>
+      <b>28</b>
+      <b>34</b>
+      <b>163</b>
     </Hash>
   </Item>
   <Item name="VISTA Northwind DM.dsv">
@@ -147,6 +172,56 @@
       <b>26</b>
       <b>101</b>
       <b>97</b>
+    </Hash>
+  </Item>
+  <Item name="DIMTIEMPO.dim">
+    <Time>637443506816403762</Time>
+    <Hash length="20">
+      <b>129</b>
+      <b>206</b>
+      <b>233</b>
+      <b>241</b>
+      <b>11</b>
+      <b>39</b>
+      <b>185</b>
+      <b>169</b>
+      <b>140</b>
+      <b>86</b>
+      <b>163</b>
+      <b>194</b>
+      <b>63</b>
+      <b>227</b>
+      <b>108</b>
+      <b>87</b>
+      <b>255</b>
+      <b>187</b>
+      <b>127</b>
+      <b>196</b>
+    </Hash>
+  </Item>
+  <Item name="DIMCLIENTE.dim">
+    <Time>637441835392766738</Time>
+    <Hash length="20">
+      <b>253</b>
+      <b>47</b>
+      <b>232</b>
+      <b>3</b>
+      <b>41</b>
+      <b>38</b>
+      <b>93</b>
+      <b>235</b>
+      <b>175</b>
+      <b>118</b>
+      <b>96</b>
+      <b>118</b>
+      <b>248</b>
+      <b>203</b>
+      <b>105</b>
+      <b>141</b>
+      <b>131</b>
+      <b>112</b>
+      <b>29</b>
+      <b>129</b>
     </Hash>
   </Item>
   <Item name="CUBONW202012.database">

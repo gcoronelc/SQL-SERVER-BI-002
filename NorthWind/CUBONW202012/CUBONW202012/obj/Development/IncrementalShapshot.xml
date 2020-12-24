@@ -54,9 +54,23 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wzZ4MjZVR4Pcy9jGaJKZ5xqZvjk=21/12/2020 21:45:5321/12/2020 21:43:55</TimeStamp>
+        <TimeStamp>wzZ4MjZVR4Pcy9jGaJKZ5xqZvjk=21/12/2020 21:51:3921/12/2020 21:43:55</TimeStamp>
         <ID>
           <String>PROVEEDOR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gc7p8QsnuamMVqPCP+NsV/+7f8Q=23/12/2020 20:04:4123/12/2020 19:52:59</TimeStamp>
+        <ID>
+          <String>DIMTIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>7sw7vyYN3FNOYxxpIG4l+UakZ4A=23/12/2020 20:11:5623/12/2020 20:11:56qAJNXguXNe7xfzigv+iaqQQcIqM=23/12/2020 20:11:5723/12/2020 20:11:56</TimeStamp>
+        <ID>
+          <String>CUBONORWIND</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -71,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-12-22T02:45:57.143333Z</LastDeployed>
+  <LastDeployed>2020-12-24T01:13:12.633333Z</LastDeployed>
 </DeploymentSnapshot>

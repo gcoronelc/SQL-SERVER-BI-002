@@ -6,6 +6,18 @@
     <Name>CUBONW202012.database</Name>
     <FullPath>CUBONW202012.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CUBONORWIND.cube</Name>
+      <FullPath>CUBONORWIND.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CUBONORWIND.partitions</Name>
+          <FullPath>CUBONORWIND.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DIMEMPLEADO.dim</Name>
@@ -22,6 +34,10 @@
     <ProjectItem>
       <Name>PROVEEDOR.dim</Name>
       <FullPath>PROVEEDOR.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIMTIEMPO.dim</Name>
+      <FullPath>DIMTIEMPO.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
