@@ -1,0 +1,106 @@
+create database dbSQL
+on primary
+(name='dbSQLDM',filename='D:\DM\dbSQLDM.mdf')
+log On
+(name='dbSQLDM_log',filename='D:\DM\dbSQLDM_log.ldf')
+go
+--Crear dimensión Cliente
+
+USE dbSQL
+create table dimcliente(idcliente int identity primary key,
+nombre_compañia nvarchar(50) not null,
+tel_cli nvarchar(25) not null,
+ciudad nvarchar(50) not null,
+region nvarchar(50) not null,
+pais nvarchar(50) not null)
+go
+
+--Crear dimensión Producto
+create table dimproducto(idproducto int identity primary key,
+nombre_producto nvarchar(50) not null,
+precio_uni int not null,
+uni_exis int not null,
+uni_pedidos int not null,
+cantidad int not null,
+suspendidos int not null,
+categ_producto int not null
+)
+go
+
+--Crear dimensión Empleado
+create table dimempleado(idempleado int identity primary key,
+nombre_empleado nvarchar(50) not null,
+apellido_empleado nvarchar(50) not null,
+nombre_empresa nvarchar(50) not null,
+cargo_empleado nvarchar(50) not null,
+ciudad nvarchar(50) not null,
+region nvarchar(50) not null,
+pais nvarchar(50) not null,
+tel_empleado nvarchar(25) not null)
+go
+
+--Crear dimensión Pedidos
+create table dimpedido(idpedido int identity primary key,
+destinatario nvarchar(50) not null,
+ciudad_destinatario nvarchar(50) not null,
+region_destinatario nvarchar(50) not null,
+pais_destinatario nvarchar(50) not null)
+--Crear dimensión Proveedor
+create table dimproveedor(idproveedor int identity primary key,
+nombre_compañia nvarchar(50) not null,
+cargo_proveedor nvarchar(50) not null,
+ciudad nvarchar(50) not null,
+provincia nvarchar(50) not null,
+pais nvarchar(50) not null,
+tel_proveedor nvarchar(25) not null)
+go
+
+--Crear dimensión Compañia
+create table dimcompañia(idcompañia int identity primary key,
+nombre_compañia nvarchar(50) not null,
+tel_compañia nvarchar(25) not null)
+go
+
+--Crear dimensión Tiempo
+create table dimtiempo(idtiempo int primary key,
+fecha date not null ,
+año smallint not null,
+nmes varchar(10) not null,
+dsemana varchar(10) not null,
+ndia tinyint not null)
+go
+
+
+--Creando la tabla de hechos
+create table Venta(idcliente int not null, idproducto int not null,
+idempleado int not null, idpedido int not null,idproveedor int not null,
+idcompañia int not null, idtiempo int not null,cantidad decimal(11,2) not null,
+descuento decimal(18,2))
+go
+
+--Estableciendo la clave primaria a venta
+alter table hventa add constraint pkventa
+primary key (idcliente,idproducto,idempleado,idpedido,idproveedor,idcompañia,idtiempo)
+
+--Estableciendo las claves foraneas
+
+alter table venta add constraint fkclientes
+foreign key (idcliente) references dimcliente(idcliente)
+
+alter table venta add constraint fkproducto
+foreign key (idproducto) references dimproducto(idproducto)
+
+alter table venta add constraint fkempleado
+foreign key (idempleado) references dimempleado(idempleado)
+
+alter table venta add constraint fkpedido
+foreign key (idpedido) references dimpedido(idpedido)
+
+alter table venta add constraint fkproveedor
+foreign key (idproveedor) references dimproveedor(idproveedor)
+
+alter table venta add constraint fkcompañia
+foreign key (idcompañia) references dimcompañia(idcompañia)
+
+alter table venta add constraint fktiempo
+foreign key (idtiempo) references dimtiempo(idtiempo)
