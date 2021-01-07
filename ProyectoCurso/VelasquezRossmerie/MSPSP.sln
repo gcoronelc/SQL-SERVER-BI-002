@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "MSPSP", "MSPSP\MSPSP.dtproj", "{E0469A9D-1A9B-4076-A598-0708E82A1D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0469A9D-1A9B-4076-A598-0708E82A1D5D}.Development|Default.ActiveCfg = Development
+		{E0469A9D-1A9B-4076-A598-0708E82A1D5D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAC02B2A-948C-4885-9C9A-40BEF8FB6F87}
+	EndGlobalSection
+EndGlobal

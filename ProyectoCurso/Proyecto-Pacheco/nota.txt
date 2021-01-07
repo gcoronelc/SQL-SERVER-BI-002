@@ -1,0 +1,1 @@
+La Base de datos bd1 es la transaccional y la bd2 es la dimencional

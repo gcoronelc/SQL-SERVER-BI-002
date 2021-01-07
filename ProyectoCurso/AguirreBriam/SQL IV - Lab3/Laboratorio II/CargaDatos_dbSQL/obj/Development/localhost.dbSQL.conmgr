@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.dbSQL"
+  DTS:DTSID="{750426B4-481E-4DBF-9A3D-3C10682B42E5}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=dbSQL;Integrated Security=True;Application Name=SSIS-CargaDatos_dbSQL-{750426B4-481E-4DBF-9A3D-3C10682B42E5}localhost.dbSQL;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
